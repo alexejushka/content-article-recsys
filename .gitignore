@@ -1,0 +1,92 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# === Python / Virtualenv ===
+venv/
+env/
+.venv/
+ENV/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# === Logs & debug ===
+*.log
+*.out
+*.err
+
+# === Build / packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# === IDE / editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Data & Models ===
+#data/
+#datasets/
+#*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+*.model
+*.bin
+*.npz
+*.npy
+
+# === ML experiment tracking ===
+mlruns/
+wandb/
+tensorboard/
+tb_logs/
+lightning_logs/
+experiments/
+outputs/
+results/
+
+# === Environment files ===
+.env
+*.env
+.env.local
+.envrc
+
+# === Temporary files ===
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === OS & editor backups ===
+#*.~*
+#*~
