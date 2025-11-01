@@ -2,11 +2,11 @@
  
 Проект рекомендательной системы для медицинских статей с использованием различных подходов машинного обучения.
  
-## 📊 О проекте
+## О проекте
  
 Система анализирует клики пользователей на статьи и строит персонализированные рекомендации на основе демографических данных (пол, возраст) и истории взаимодействий.
  
-## 🔧 Структура проекта
+## Структура проекта
  
 ```
 ├── eda.ipynb                    # Exploratory Data Analysis
@@ -32,7 +32,7 @@ ETL процесс автоматизирован через Apache Airflow:
 - **Load**: Сохранение обработанных данных
 - **Build Top**: Построение топовых рекомендаций по полу и возрастным группам
  
-## 🤖 Реализованные подходы
+## Реализованные подходы
  
 ### 1. **Top по демографии**
 Простые рекомендации на основе популярности статей среди похожих пользователей (пол + возрастная группа).
@@ -53,11 +53,11 @@ Learning-to-Rank модель с градиентным бустингом. Ис
  
 A recommendation system project for medical articles using various machine learning approaches.
 
-## 📊 About the Project
+## About the Project
 
 The system analyzes user clicks on articles and builds personalized recommendations based on demographic data (gender, age) and interaction history.
 
-## 🔧 Project Structure
+## Project Structure
 ```
 ├── eda.ipynb                    # Exploratory Data Analysis
 ├── airflow/                     # ETL pipeline for data processing
@@ -73,7 +73,7 @@ The system analyzes user clicks on articles and builds personalized recommendati
     └── rec_sys_catboost.ipynb
 ```
 
-## ⚙️ Airflow Pipeline
+## Airflow Pipeline
 
 The ETL process is automated through Apache Airflow:
 - **Extract**: Loading raw data from Excel
@@ -81,7 +81,7 @@ The ETL process is automated through Apache Airflow:
 - **Load**: Saving processed data
 - **Build Top**: Building top recommendations by gender and age groups
 
-## 🤖 Implemented Approaches
+## Implemented Approaches
 
 ### 1. Demographics-based Top
 Simple recommendations based on article popularity among similar users (gender + age group).
